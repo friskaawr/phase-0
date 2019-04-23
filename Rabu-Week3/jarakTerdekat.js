@@ -1,7 +1,7 @@
 function targetTerdekat(arr) {
     // you can only write your code here!
     //find character O
-    var find_o = 0;
+    var find_o;
     var find_x = [];
     for(var i=0; i<arr.length; i++){
         if(arr[i] == 'o'){

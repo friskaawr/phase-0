@@ -15,7 +15,7 @@ function bubbleSort(arr){
 function cariModus(arr) {
     // you can only write your code here!
  var newArr = []
- bubbleSort(arr)
+//  bubbleSort(arr)
 //  console.log(a)
  for(var i=0; i<arr.length; i++){
      var found = false;
@@ -42,14 +42,15 @@ function cariModus(arr) {
          arr_length.push(newArr[i][0])
      }
  }
-
+//  console.log(arr_length)
+// console.log(newArr)
  if(arr_length.length == 0){
      return -1
  }
  else{
      return arr_length[0]
- }
     }
+}
   
   // TEST CASES
   console.log(cariModus([10, 4, 5, 2, 4])); // 4
